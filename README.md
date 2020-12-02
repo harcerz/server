@@ -68,3 +68,12 @@ docker run -d \
     --net host \
     defunctzombie/localtunnel-server:latest --port 3000
 ```
+
+## Specific ports
+You can add static ports for specific subdomain names.
+
+In the users.json file you can add specific ports for subdomains:
+{
+     "user1": "44333",
+     "user2": "44444"
+}
